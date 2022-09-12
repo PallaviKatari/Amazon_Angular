@@ -1,0 +1,35 @@
+1) src -> app -> default component -> 4 files
+COMPONENTS:
+-----------
+->HTML - DESIGN THE STRUCTURE
+->CSS - STYLING
+->TYPESCRIPT - PROGRAMMING LOGIC - COMPONENT.TS
+->TESTING - TEST CASES - COMPONENT.SPEC.TS
+
+COMMON files:
+--------------
+app.routing.module.ts - Routing/Navigation Configuration between pages/COMPONENTS
+app.module.ts - basic packages for angular are present here and the external packages
+                which will be included in the project
+
+eg: C++ -> header files -> iostream.h ->input/ouput
+
+2) assets -> media files
+
+3) environments -> API - Application prg interface - accessing API - configure the URL
+
+4)favicon.ico
+
+5)index.html -> startup page
+
+6)main.ts
+
+7)polyfills.ts ->browser settings
+
+8)styles.css -> global CSS
+
+9)test.ts -> Global Test cases
+
+10)browserslistrc -> browser info
+
+11)gitignore ->
