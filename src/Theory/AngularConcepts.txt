@@ -55,6 +55,7 @@ TYPES OF DATA BINDING:
 Create a component in angular
 -> ng g c Nav
 -> ng g c Home
+-> ng g c Search
 
 Rendering of the components:
 index.html <- <app-root> <- <app-nav> and <app-home>
@@ -64,3 +65,8 @@ index.html <- <app-root> <- <app-nav> and <app-home>
 ROUTING - Navigation between components
 Configure routing - app-routing.module.ts
 Routing - app.component -> <router-outlet></router-outlet>
+
+------------------------------------------------------------
+PARENT-CHILD COMPONENT
+------------------------
+We are going to work with nav component and search component

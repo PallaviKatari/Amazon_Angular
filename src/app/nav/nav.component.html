@@ -1,10 +1,9 @@
-<h1>Welcome to Nav Component</h1>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <!--STRING INTERPOLATION-->
       <!--PROPERTY BINDING IN img tag-->
-      <a class="navbar-brand" href="#"><img src="https://th.bing.com/th/id/R.42a7861bb1a403af534b18986ab4e198?rik=tERIJIuEOHXLaw&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2017%2f03%2famazon_logo_1.png&ehk=4ctuhLarHphu6crgqSRu2SyaKFJN628s92q90IuTnMY%3d&risl=&pid=ImgRaw&r=0" alt="amazon">
-        <img [src]="logo" alt="amazon">{{title}}</a>
+      <a class="navbar-brand" href="#">
+        <img [src]="logo" alt="amazon"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -34,9 +33,17 @@
           </li>
         </ul>
         <form class="d-flex">
-          <input type="text">
+          <input type="text" #productname placeholder="Enter product name" style="border-radius:10px;">&nbsp;
           <!--EVENT BINDING-->
-          <button class="btn btn-outline-success" type="submit" (click)="onSearch()">Search</button>
+          <button class="btn btn-outline-success" type="submit" (click)="search_product(productname.value);productname.value=''" style="border-radius:10px;">Search</button>
+          <!--Access the Search Component-->
+          <br>
+          <!--Laptop will get assigned to the property product in search component-->
+          <!--@Input(product) in search component-->
+          <!--PROPERTY BINDING-->
+          <!--@Input(product) in search component is going to receive the value from productentered property from nav component-->
+          &nbsp;&nbsp;&nbsp;
+          <app-search [product]="productentered"></app-search>
         </form>
       </div>
     </div>
