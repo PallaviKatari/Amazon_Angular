@@ -70,3 +70,13 @@ Routing - app.component -> <router-outlet></router-outlet>
 PARENT-CHILD COMPONENT
 ------------------------
 We are going to work with nav component and search component
+
+-------------------------------------------------------------
+Directives
+------------
+Loop -> array -> for 
+condition -> if, switch
+
+*ngFor - looping - .html
+*ngIf - condition
+*ngSwitch - condition
