@@ -80,3 +80,15 @@ condition -> if, switch
 *ngFor - looping - .html
 *ngIf - condition
 *ngSwitch - condition
+ngStyle - Styling
+ngClass - Access styles and bind with ngClass
+
+Pipes
+-------
+-> TRANSFORMATION OF THE CONTENT IN YOUR component.html
+(eg) lowercase,uppercase
+-> 2types: pre-defined and custom
+
+CUSTOM Pipes
+-------------
+ng g pipe square

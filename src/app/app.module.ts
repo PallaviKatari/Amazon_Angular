@@ -8,6 +8,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { CardsComponent } from './cards/cards.component';
 import { SearchComponent } from './search/search.component';
+import { SquarePipe } from './square.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SearchComponent } from './search/search.component';
     NavComponent,
     HomeComponent,
     CardsComponent,
-    SearchComponent
+    SearchComponent,
+    SquarePipe
   ],
   imports: [
     BrowserModule,
