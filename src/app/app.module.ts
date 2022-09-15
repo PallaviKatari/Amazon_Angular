@@ -12,6 +12,10 @@ import { SquarePipe } from './square.pipe';
 import { MicroovenComponent } from './microoven/microoven.component';
 import { RefrigeratorComponent } from './refrigerator/refrigerator.component';
 import { WashingmachineComponent } from './washingmachine/washingmachine.component';
+import { WashingmachinedealsComponent } from './washingmachine/washingmachinedeals/washingmachinedeals.component';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+import { DealsComponent } from './deals/deals.component';
+import { AdvertisementComponent } from './advertisement/advertisement.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { WashingmachineComponent } from './washingmachine/washingmachine.compone
     SquarePipe,
     MicroovenComponent,
     RefrigeratorComponent,
-    WashingmachineComponent
+    WashingmachineComponent,
+    WashingmachinedealsComponent,
+    AllproductsComponent,
+    DealsComponent,
+    AdvertisementComponent
   ],
   imports: [
     BrowserModule,

@@ -95,3 +95,8 @@ ng g pipe square
 ---------------
 JSON FILE ->JAVASCRIPT OBJECT NOTATION - DATA TRANSFER - key-value pair
 XML FILE ->eXtensible Markup language - <> format
+
+NESTED COMPONENT
+-------------------
+ng g c washingmachine
+ng g c washingmachine/washingmachinedeals
