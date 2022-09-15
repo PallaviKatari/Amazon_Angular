@@ -92,3 +92,6 @@ Pipes
 CUSTOM Pipes
 -------------
 ng g pipe square
+---------------
+JSON FILE ->JAVASCRIPT OBJECT NOTATION - DATA TRANSFER - key-value pair
+XML FILE ->eXtensible Markup language - <> format

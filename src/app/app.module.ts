@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { CardsComponent } from './cards/cards.component';
 import { SearchComponent } from './search/search.component';
 import { SquarePipe } from './square.pipe';
+import { MicroovenComponent } from './microoven/microoven.component';
+import { RefrigeratorComponent } from './refrigerator/refrigerator.component';
+import { WashingmachineComponent } from './washingmachine/washingmachine.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { SquarePipe } from './square.pipe';
     HomeComponent,
     CardsComponent,
     SearchComponent,
-    SquarePipe
+    SquarePipe,
+    MicroovenComponent,
+    RefrigeratorComponent,
+    WashingmachineComponent
   ],
   imports: [
     BrowserModule,
