@@ -8,6 +8,7 @@ import { Component, OnInit ,Input} from '@angular/core';
 export class DealsComponent implements OnInit {
 
   constructor() { }
+  //Input Class Decorator
   @Input()product:any
 
   ngOnInit(): void {

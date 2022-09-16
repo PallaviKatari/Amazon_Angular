@@ -17,6 +17,8 @@ import { AllproductsComponent } from './allproducts/allproducts.component';
 import { DealsComponent } from './deals/deals.component';
 import { AdvertisementComponent } from './advertisement/advertisement.component';
 import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component';
+import { CounterComponent } from './counter/counter.component';
+import { CounterchildComponent } from './counter/counterchild/counterchild.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component'
     AllproductsComponent,
     DealsComponent,
     AdvertisementComponent,
-    AmazondealsComponent
+    AmazondealsComponent,
+    CounterComponent,
+    CounterchildComponent
   ],
   imports: [
     BrowserModule,
