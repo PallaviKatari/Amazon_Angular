@@ -11,12 +11,12 @@ export class NavComponent implements OnInit {
   //STRING INTERPOLATION
   title = 'amazon';
   //PROPERTY BINDING
-  public logo="https://pngimg.com/uploads/amazon/amazon_PNG5.png";
+  public logo="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg";
   //EVENT BINDING
-  onSearch()
-  {
-    alert("Will contact shortly");
-  }
+  // onSearch()
+  // {
+  //   alert("Will contact shortly");
+  // }
 
   //Accessing the Search Component
   //Property

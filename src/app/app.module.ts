@@ -16,6 +16,7 @@ import { WashingmachinedealsComponent } from './washingmachine/washingmachinedea
 import { AllproductsComponent } from './allproducts/allproducts.component';
 import { DealsComponent } from './deals/deals.component';
 import { AdvertisementComponent } from './advertisement/advertisement.component';
+import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AdvertisementComponent } from './advertisement/advertisement.component'
     WashingmachinedealsComponent,
     AllproductsComponent,
     DealsComponent,
-    AdvertisementComponent
+    AdvertisementComponent,
+    AmazondealsComponent
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
   //TWO-WAY BINDING
-  name = "John"
+  name = "Johnny"
   //theme for Carousel contents
   mycolor = 'red';
   //Array - *ngFor
@@ -42,6 +42,9 @@ export class HomeComponent implements OnInit {
     },
     {
       "productname": "Mouse"
+    },
+    {
+      "productname":"Refrigerator"
     }
 
   ]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as allprod from "../data/allproducts.json";
 @Component({
   selector: 'app-microoven',
   templateUrl: './microoven.component.html',
@@ -11,5 +11,6 @@ export class MicroovenComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  all:any=(allprod as any).default;
 
 }
