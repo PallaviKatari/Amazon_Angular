@@ -100,3 +100,13 @@ NESTED COMPONENT
 -------------------
 ng g c washingmachine
 ng g c washingmachine/washingmachinedeals
+
+-----------------------
+MICROOVEN COMPONENT
+-------------------
+class - ng g class microoven
+service - ng g service microoven
+
+consume the serive in our component:
+1. Go to microoven component
+2. import microoven.ts and microoven.service.ts
