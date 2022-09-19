@@ -35,10 +35,10 @@ export class RegisterComponent implements OnInit {
 
   }
 
-  //Event fot the button
+  //Event for the button
   onSubmit()
   {
-    alert("User Registered successfully");
+    console.log(this.myForm);
   }
 
 
