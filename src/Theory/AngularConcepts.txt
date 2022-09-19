@@ -110,3 +110,18 @@ service - ng g service microoven
 consume the serive in our component:
 1. Go to microoven component
 2. import microoven.ts and microoven.service.ts
+
+------------------------------
+REACTIVE FORMS - VALIDATION CLASSES
+
+ng g c register
+
+->ReactiveFormsModule
+
+Fields for registration:
+-------------------------
+username
+useremail
+password
+mobile
+
