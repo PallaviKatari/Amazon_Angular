@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 //Reactive Forms
 import { ReactiveFormsModule } from '@angular/forms';
+//API
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -22,6 +24,8 @@ import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component'
 import { CounterComponent } from './counter/counter.component';
 import { CounterchildComponent } from './counter/counterchild/counterchild.component';
 import { RegisterComponent } from './register/register.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -41,13 +45,16 @@ import { RegisterComponent } from './register/register.component';
     AmazondealsComponent,
     CounterComponent,
     CounterchildComponent,
-    RegisterComponent
+    RegisterComponent,
+    ProductdetailsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

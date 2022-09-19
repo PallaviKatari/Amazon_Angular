@@ -5,6 +5,8 @@ import { FormGroup, FormControl } from '@angular/forms';
 import {
   Validators
 } from '@angular/forms';
+//Routing
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -12,7 +14,7 @@ import {
 })
 export class RegisterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   //Properties for the form and form elements/controls
   myForm: FormGroup | any;
@@ -38,6 +40,7 @@ export class RegisterComponent implements OnInit {
   //Event for the button
   onSubmit()
   {
+    this.router.navigate(['']);
     console.log(this.myForm);
   }
 

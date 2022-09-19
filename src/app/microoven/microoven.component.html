@@ -3,13 +3,16 @@
 <div style="margin-top: 30px;">
     <div class="row">
         <!--1st column-->
-        <div class="col col-lg-3">
+        <div class="col col-lg-5" style="margin-top: 30px;">
+            <app-allproducts></app-allproducts>
+            <app-allproducts></app-allproducts>
+            <app-allproducts></app-allproducts>
             <app-allproducts></app-allproducts>
             <app-allproducts></app-allproducts>
         </div>
 
         <!--2nd column-->
-        <div class="card col-lg-6" style="border:none;margin-top: 30px;">
+        <div class="card col-lg-7" style="border:none;margin-top:30px;">
             <div class="card-body col-lg-12">
                 <div class="row" style="margin-top:10px;border-style:solid;border-color:black;border-radius:15px;"
                     *ngFor="let m of micro">
@@ -34,11 +37,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--3rd column-->
-        <div class="col col-lg-3" *ngFor="let m of micro">
-            <!--Property Binding-->
-            <img [src]="m.img">
         </div>
     </div>
 </div>

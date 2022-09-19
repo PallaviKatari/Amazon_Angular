@@ -46,23 +46,23 @@
   <br>
   <br>
   <!--TWO WAY BINDING-->
-  Enter the Color for Carousel Contents:  <input [(ngModel)]="mycolor" type="text" style="border-radius:10px;">
+  <!-- Enter the Color for Carousel Contents:  <input [(ngModel)]="mycolor" type="text" style="border-radius:10px;">
   <br>
-  <br>
+  <br> -->
   <!--*ngFor to retrieve the contents from products-->
   <!--*ngIf in the <ul> for toggle effct - hide/show the contents-->
-  <ul *ngIf="isVisible">
+  <!-- <ul *ngIf="isVisible"> -->
     <!--Access the class products with ngClass-->
     <!--Property Binding-->
-    <li *ngFor="let product of Products" [ngClass]="prod">
+    <!-- <li *ngFor="let product of Products" [ngClass]="prod">
         {{product.productname}}
     </li>
-  </ul>
+  </ul> -->
   <!--Event to hide product details-->
-  <button (click)="hide_products()" [style.background-color]="mycolor">Hide the Product details</button>
-  <!--*ngSwitch for Product-->
+  <!-- <button (click)="hide_products()" [style.background-color]="mycolor">Hide the Product details</button>
+  *ngSwitch for Product -->
   <!--Property Binding-->
-  <br>
+  <!-- <br>
   <br>
   <ul [ngSwitch]="product"> 
     <li *ngSwitchCase="'Dress'">Dress</li>
@@ -71,19 +71,19 @@
     <li *ngSwitchCase="'Laptop'">Laptop</li>
     <li *ngSwitchDefault>Not Found</li>
   </ul>
-  <hr>
+  <hr> -->
   <!--STYLE BINDING-->
-<p [style.color]="'red'" [style.font-size.px]="'24'" [style.background-color]="'aqua'">Red Color</p>
+<!-- <p [style.color]="'red'" [style.font-size.px]="'24'" [style.background-color]="'aqua'">Red Color</p>
 <p [style.background-color]="'aqua'">Red Color</p>
 <p [style.font-size.px]="'24'">Red Color</p>
 <p class="stylebinding1">Class Binding</p>
-<hr>
+<hr> -->
 <!--TERNARY OPERATOR FOR STYLE BINDING-->
-<button [style.color]="errorcolor=='blue'?'red':'blue'">STYLE BINDING USING TERNARY </button>
-<hr>
+<!-- <button [style.color]="errorcolor=='blue'?'red':'blue'">STYLE BINDING USING TERNARY </button>
+<hr> -->
 <!--Access the ProductDetails *ngFor and *ngSwitchCase-->
 <!--red,green,yellow classes are created in the component.css-->
-<ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
+<!-- <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.color">
   <li *ngSwitchCase="'green'" class="green">
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
   </li>
@@ -94,10 +94,10 @@
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
   </li>
 </ul>
-<hr>
+<hr> -->
 <!--Bootstrap contextual classes(eg text-success)-->
 <!--PIPES-->
-<ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.status">
+<!-- <ul *ngFor="let pdetails of ProductDetails" [ngSwitch]="pdetails.status">
   <li *ngSwitchCase="'Active'" class="text-success">
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status | uppercase}}
   </li>
@@ -108,14 +108,14 @@
     {{pdetails.pid}} - {{pdetails.pname}} - {{pdetails.status}}
   </li>
 </ul>
-<hr>
+<hr> -->
 <!--binding style through function-->
-<p [style.color]="getColor()">Hello</p>
-<hr>
+<!-- <p [style.color]="getColor()">Hello</p>
+<hr> -->
 <!--PRE-DEFINED PIPES-->
 <!--DATE PIPE-->
 
-Today's Date : {{date_today}}
+<!-- Today's Date : {{date_today}}
 <br>
 Today's Date : {{date_today | date }}
 <br>
@@ -124,17 +124,17 @@ Today's Date : {{date_today | date | uppercase}}
 Today's Date : {{date_today | date:'short' | uppercase}}
 <br>
 Today's Date : {{date_today | date:'long' | uppercase}}
-<hr>
+<hr> -->
 <!--Other Pipes-->
-<br>
+<!-- <br>
 Price: {{price}}
 <br>
 Price: {{price | currency:'INR'}}
 <br>
 Price: {{price | currency:'USD'}}
-<hr>
+<hr> -->
 <!--CUSTOM PIPES - USER-DEFINED PIPES-->
 <!--ng g pipe square-->
 <!--square-->
-Calculate Square of 4: {{ 4 | square}}
+<!-- Calculate Square of 4: {{ 4 | square}} -->
 
