@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
+import { CartService } from '../cart.service';
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
@@ -8,8 +9,10 @@ import { UserService } from '../user.service';
 export class NavComponent implements OnInit {
 
   //Dependency injection
-  constructor(private authService:UserService) { }
+  constructor(private authService:UserService,private cartSvc:CartService) { }
   auth:boolean=false;
+  //Add to cart
+  cartCount: number=0;
   //STRING INTERPOLATION
   title = 'amazon';
   //PROPERTY BINDING
@@ -42,6 +45,20 @@ export class NavComponent implements OnInit {
         this.auth = data;
       }
     );
+    this.cartSvc.getCartItems().subscribe (     
+      (response) =>
+       {        
+        this.cartCount=response.length;
+        console.log(this.cartCount);
+       }
+     ) 
+    this.cartSvc.countSubject.subscribe (     
+      (response) =>
+       {        
+        this.cartCount=response;
+        console.log(this.cartCount);
+       }
+     ) 
   }
 
 }

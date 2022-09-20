@@ -26,6 +26,7 @@ import { CounterchildComponent } from './counter/counterchild/counterchild.compo
 import { RegisterComponent } from './register/register.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { LoginComponent } from './login/login.component';
     CounterchildComponent,
     RegisterComponent,
     ProductdetailsComponent,
-    LoginComponent
+    LoginComponent,
+    CartItemsComponent
   ],
   imports: [
     BrowserModule,

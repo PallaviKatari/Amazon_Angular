@@ -122,21 +122,34 @@
   ],
   "users": [
     {
-      "id": 1,
-      "username": "Pallavi",
-      "useremail": "pallavi@gmail.com",
-      "password": "Pallavi123",
-      "mobile": "9876543212"
+      "username": "john@gmail.com",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "John@123",
+      "mobile": "",
+      "id": 1
     },
     {
-      "id": 2,
-      "username": "John",
-      "useremail": "john@gmail.com",
-      "password": "John@123",
-      "mobile": "745637826"
+      "pname": "Kids Frock",
+      "pdescription": "Kids dress for girls between 4 - 6 years old",
+      "price": 750,
+      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "quantity": 0,
+      "id": 2
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898",
+      "id": 3
+    },
+    {
+      "username": "Jancy",
+      "useremail": "jancy@gmail.com",
+      "password": "jancy123",
+      "mobile": "",
+      "id": 4
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "cart": []
 }

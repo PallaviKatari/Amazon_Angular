@@ -50,6 +50,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment';
 import { UserService } from '../user.service';
+//npm install sweetalert2
+import Swal from 'sweetalert2';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -84,9 +87,20 @@ get f() { return this.loginForm.controls; }
         return a.useremail === this.loginForm.value.useremail && a.password=== this.loginForm.value.password
       });
       if(user){
-        alert("login successful!!");
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'top',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+        })
+    
+        Toast.fire({
+          icon: 'success',
+          title: 'Login Successful'
+        })
         this.loginForm.reset();
-        this.router.navigate(['home'])
+        this.router.navigate([''])
         this.userService.validateAuth(true);
       }else{
         alert("user not found !!");       

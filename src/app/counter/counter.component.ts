@@ -12,12 +12,12 @@ export class CounterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  count:number=1;
+  count = 1;
+  // @Input() count?:number;
 
-  //Receive the counterValue from counterchild
-
-  receiveValue($event:number){
-    this.count=$event;
+  receivecount($event: number) {
+    this.count = $event;
   }
 
 }
+

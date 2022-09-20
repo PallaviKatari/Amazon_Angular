@@ -10,18 +10,19 @@ import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component'
 import { RegisterComponent } from './register/register.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
-
+import { CartItemsComponent } from './cart-items/cart-items.component';
 //Configure the routing path for the above imported components
 const routes: Routes = [
   {path:'login',component:LoginComponent},
-  {path:'home',component:HomeComponent},
+  {path:'',component:HomeComponent},
   {path:'cards',component:CardsComponent},
   {path:'fridge',component:RefrigeratorComponent},
   {path:'washingmach',component:WashingmachineComponent},
   {path:'micro',component:MicroovenComponent},
   {path:'deals',component:AmazondealsComponent},
   {path:'register',component:RegisterComponent},
-  {path:'prod_details',component:ProductdetailsComponent}
+  {path:'prod_details',component:ProductdetailsComponent},
+  {path:'cartitem',component:CartItemsComponent}
 
 ];
 
