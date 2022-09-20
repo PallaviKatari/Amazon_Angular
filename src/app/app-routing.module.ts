@@ -10,18 +10,18 @@ import { AmazondealsComponent } from './deals/amazondeals/amazondeals.component'
 import { RegisterComponent } from './register/register.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { LoginComponent } from './login/login.component';
-//Auth Guard for deals and productdetails component
-import { AuthGuard } from './auth.guard';
+
 //Configure the routing path for the above imported components
 const routes: Routes = [
-  {path:'',component:LoginComponent},
+  {path:'login',component:LoginComponent},
+  {path:'home',component:HomeComponent},
   {path:'cards',component:CardsComponent},
   {path:'fridge',component:RefrigeratorComponent},
   {path:'washingmach',component:WashingmachineComponent},
   {path:'micro',component:MicroovenComponent},
-  {path:'deals',component:AmazondealsComponent,canActivate: [AuthGuard]},
+  {path:'deals',component:AmazondealsComponent},
   {path:'register',component:RegisterComponent},
-  {path:'prod_details',component:ProductdetailsComponent,canActivate: [AuthGuard] }
+  {path:'prod_details',component:ProductdetailsComponent}
 
 ];
 

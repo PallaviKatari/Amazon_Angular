@@ -125,3 +125,10 @@ useremail
 password
 mobile
 
+---------------------------------
+Authentication and Route Guards
+---------------------------------
+1. ng g guard auth - CanActivate
+2. ng g s user
+3. login component -> userservice and environment(userapi) -> data(true/false)
+4. nav component -> data(true/false) -> show/hide the Nav links

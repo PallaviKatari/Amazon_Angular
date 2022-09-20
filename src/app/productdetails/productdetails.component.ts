@@ -2,9 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {  FormBuilder, FormGroup } from '@angular/forms';
 import { ProductModel } from '../product-model';
 import { ProductapiService } from '../productapi.service';
-//Auth Guard
-import { AuthService } from '../auth.service';
-import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-productdetails',
   templateUrl: './productdetails.component.html',
@@ -17,12 +15,8 @@ export class ProductdetailsComponent implements OnInit {
   showAdd!: boolean;
   showUpdate!: boolean;
  
-  constructor(private auth: AuthService, private route: Router,private formbuilder: FormBuilder, private api:ProductapiService) { }
+  constructor(private formbuilder: FormBuilder, private api:ProductapiService) { }
 
-  logOut() {
-    this.auth.logout();
-    this.route.navigate(['']);
-}
   ngOnInit(): void {
     this.formValue = this.formbuilder.group({
       pname:[''],

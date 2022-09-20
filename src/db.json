@@ -4,7 +4,7 @@
       "id": 3,
       "pname": "Dell Inspiron 15",
       "pdescription": "Dell Laptop",
-      "price": 45000,
+      "price": "43999",
       "img": "https://th.bing.com/th/id/OIP.w1nfH9XM1EoRpGvSyc-HHQHaHa?pid=ImgDet&rs=1"
     },
     {
@@ -99,13 +99,6 @@
       "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTsXF8Nc2C0VPC8AKnOLDPuMXRKMw-xsZb2_b3OPM8PIf-pedseIg-4uvYWVCfd3ncIZMFqX8ndao_DCpyIZMF9vdE60NnGjtecZcHJlfxWLd5LF6T5_yWlNA&usqp=CAE"
     },
     {
-      "id": 17,
-      "pname": "Croma",
-      "pdescription": "Croma - Top Loading",
-      "price": 25999,
-      "img": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1655208534/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/243594_mavdro.png/mxw_2048,f_auto"
-    },
-    {
       "id": 18,
       "pname": "Bosch",
       "pdescription": "Bosch - Front Loading",
@@ -118,9 +111,31 @@
       "pdescription": "Kids Building blocks",
       "price": "1000",
       "img": "https://th.bing.com/th/id/OIP.Gd6ov_glKB2t4KzG4vYWbwHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 19,
+      "pname": "Kids Frock",
+      "pdescription": "Kids frock for age between 4 to 6yrs old",
+      "price": "950",
+      "img": "https://i.pinimg.com/originals/45/0f/9a/450f9a23a44d8527da05377795006fa2.jpg"
     }
   ],
-  "comments": [],
+  "users": [
+    {
+      "id": 1,
+      "username": "Pallavi",
+      "useremail": "pallavi@gmail.com",
+      "password": "Pallavi123",
+      "mobile": "9876543212"
+    },
+    {
+      "id": 2,
+      "username": "John",
+      "useremail": "john@gmail.com",
+      "password": "John@123",
+      "mobile": "745637826"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }

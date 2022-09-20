@@ -4,6 +4,7 @@ input {
 }
 
 label {
+    color:red;
     margin-left: 100px;
 }
 
@@ -25,10 +26,9 @@ form:hover {
 }
 
 button {
-    margin-left: 150px;
+    margin-left: 230px;
 }
 
 span {
-    width: 60%;
-    margin-left: 100px;
+    width: 100%;
 }
