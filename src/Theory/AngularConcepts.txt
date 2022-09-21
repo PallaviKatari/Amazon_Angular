@@ -132,3 +132,12 @@ Authentication and Route Guards
 2. ng g s user
 3. login component -> userservice and environment(userapi) -> data(true/false)
 4. nav component -> data(true/false) -> show/hide the Nav links
+
+-------------------------------------------
+ADD TO CART
+------------
+ng g class cartitem - properties of the products
+ng g s cart - cart service (addtocart,removeitem)
+ng g c cartitems - import(cartitem and cartservice)
+deals component - add to cart button
+nav component - cart count - font-awesome icon - click - navigate - cartitems component

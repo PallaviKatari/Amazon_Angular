@@ -129,14 +129,6 @@
       "id": 1
     },
     {
-      "pname": "Kids Frock",
-      "pdescription": "Kids dress for girls between 4 - 6 years old",
-      "price": 750,
-      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-      "quantity": 0,
-      "id": 2
-    },
-    {
       "username": "Admin",
       "useremail": "admin@gmail.com",
       "password": "admin@123",
@@ -151,5 +143,38 @@
       "id": 4
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "pname": "Kids Frock",
+      "pdescription": "Kids dress for girls between 4 - 6 years old",
+      "price": 750,
+      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "quantity": 3,
+      "id": 1
+    },
+    {
+      "pname": "Kids Frock",
+      "pdescription": "Kids dress for girls between 4 - 6 years old",
+      "price": 750,
+      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "quantity": 4,
+      "id": 2
+    },
+    {
+      "pname": "Jabra Headphones",
+      "pdescription": "Jabra Headphones",
+      "price": 3500,
+      "img": "https://th.bing.com/th/id/OIP.6fUrfdYdaP2E2FMAwbmviQHaHa?pid=ImgDet&rs=1",
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "pname": "Kids Frock",
+      "pdescription": "Kids dress for girls between 4 - 6 years old",
+      "price": 750,
+      "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+      "quantity": 1,
+      "id": 5
+    }
+  ]
 }

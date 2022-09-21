@@ -1,4 +1,5 @@
 import { Component, OnInit ,Input} from '@angular/core';
+//Add to Cart
 import { CartService } from '../cart.service';
 import { Cartitem } from '../cartitem';
 //npm install sweetalert2
@@ -9,7 +10,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./deals.component.css']
 })
 export class DealsComponent implements OnInit {
-
+//constructor injection
   constructor(private cartsvc:CartService) { }
   //Add to cart
   cart:Cartitem={
@@ -21,8 +22,7 @@ export class DealsComponent implements OnInit {
     quantity:1,
     totalPrice:1    
   }
-  quantity:number=0;
-  value=1;
+  quantity:number=1;
 
   addToCart(product:any){
     this.cart.pname=product.pname;

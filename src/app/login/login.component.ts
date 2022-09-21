@@ -103,7 +103,18 @@ get f() { return this.loginForm.controls; }
         this.router.navigate([''])
         this.userService.validateAuth(true);
       }else{
-        alert("user not found !!");       
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'top',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+        })
+    
+        Toast.fire({
+          icon: 'error',
+          title: 'User not found'
+        })       
         this.userService.validateAuth(false);
       }
     })

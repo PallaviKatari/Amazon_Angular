@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
+//Cart count
 import { CartService } from '../cart.service';
 @Component({
   selector: 'app-nav',
@@ -45,6 +46,7 @@ export class NavComponent implements OnInit {
         this.auth = data;
       }
     );
+    //Cart count
     this.cartSvc.getCartItems().subscribe (     
       (response) =>
        {        
