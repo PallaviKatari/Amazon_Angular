@@ -4,7 +4,7 @@
       "id": 3,
       "pname": "Dell Inspiron 15",
       "pdescription": "Dell Laptop",
-      "price": "43999",
+      "price": "43998",
       "img": "https://th.bing.com/th/id/OIP.w1nfH9XM1EoRpGvSyc-HHQHaHa?pid=ImgDet&rs=1"
     },
     {
@@ -118,6 +118,13 @@
       "pdescription": "Kids frock for age between 4 to 6yrs old",
       "price": "950",
       "img": "https://i.pinimg.com/originals/45/0f/9a/450f9a23a44d8527da05377795006fa2.jpg"
+    },
+    {
+      "id": 20,
+      "pname": "ipad",
+      "pdescription": "ipad mini pro",
+      "price": "49999",
+      "img": "https://tse4.mm.bing.net/th/id/OIP.U9gJaqalEq4m0IartalCygHaEZ?pid=ImgDet&rs=1"
     }
   ],
   "users": [
@@ -141,6 +148,13 @@
       "password": "jancy123",
       "mobile": "",
       "id": 4
+    },
+    {
+      "username": "pallavi",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "123123",
+      "mobile": "09994083106",
+      "id": 5
     }
   ],
   "cart": [
@@ -161,19 +175,27 @@
       "id": 2
     },
     {
-      "pname": "Jabra Headphones",
-      "pdescription": "Jabra Headphones",
-      "price": 3500,
-      "img": "https://th.bing.com/th/id/OIP.6fUrfdYdaP2E2FMAwbmviQHaHa?pid=ImgDet&rs=1",
+      "pname": "Kids Building Blocks",
+      "pdescription": "Kids toys for age between 4 - 6 years old",
+      "price": 1000,
+      "img": "https://th.bing.com/th/id/OIP.Gd6ov_glKB2t4KzG4vYWbwHaHa?pid=ImgDet&rs=1",
       "quantity": 1,
-      "id": 4
+      "id": 3
     },
     {
       "pname": "Kids Frock",
       "pdescription": "Kids dress for girls between 4 - 6 years old",
       "price": 750,
       "img": "https://th.bing.com/th/id/OIP.p9mcy1s4fqQiU1wJczY7fAHaHK?w=186&h=179&c=7&r=0&o=5&dpr=1.25&pid=1.7",
-      "quantity": 1,
+      "quantity": 6,
+      "id": 4
+    },
+    {
+      "pname": "Kids Building Blocks",
+      "pdescription": "Kids toys for age between 4 - 6 years old",
+      "price": 1000,
+      "img": "https://th.bing.com/th/id/OIP.Gd6ov_glKB2t4KzG4vYWbwHaHa?pid=ImgDet&rs=1",
+      "quantity": 5,
       "id": 5
     }
   ]

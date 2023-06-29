@@ -5,11 +5,13 @@
 export const environment = {
   production: true,
   // userapi:"http://localhost:3000/users",
-  // cartapi:"http://localhost:3000/cart"
-  postsapi:"https://fake-server-app-angular-amazon.herokuapp.com/posts",
+  cartapi:"http://localhost:3000/cart",
+  postsapi:"http://localhost:3000/posts",
+  //postsapi:"https://fake-server-app-angular-amazon.herokuapp.com/posts",
   //userapi:"https://fake-server-app-angular-amazon.herokuapp.com/users",
-  userapi:"https://localhost:7126/api/Registrations",//.NET CORE API
-  cartapi:"https://fake-server-app-angular-amazon.herokuapp.com/cart"
+  //userapi:"https://localhost:7126/api/Registrations",//.NET CORE API
+  userapi:"http://localhost:3000/users",
+  //cartapi:"https://fake-server-app-angular-amazon.herokuapp.com/cart"
 };
 
 /*
