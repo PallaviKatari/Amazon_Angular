@@ -9,8 +9,9 @@ export const environment = {
   postsapi:"http://localhost:3000/posts",
   //postsapi:"https://fake-server-app-angular-amazon.herokuapp.com/posts",
   //userapi:"https://fake-server-app-angular-amazon.herokuapp.com/users",
-  //userapi:"https://localhost:7126/api/Registrations",//.NET CORE API
-  userapi:"http://localhost:3000/users",
+  //userapi:"https://localhost:7126/api/Registrations"//.NET CORE API
+  userapi:"https://localhost:44300/api/registrations2" // .NET MVC API
+  //userapi:"http://localhost:3000/users",
   //cartapi:"https://fake-server-app-angular-amazon.herokuapp.com/cart"
 };
 
